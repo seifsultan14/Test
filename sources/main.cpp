@@ -1,9 +1,9 @@
-#include "marwanwalid"
-#include <iostream>
 #include "salmashoukry.h"
+#include "marwanwalid.h"
+#include <iostream>
 using namespace std;
-void main()
+int main()
 {
-marwanwalid();
 salmashoukry();
+marwanwalid();
 }
