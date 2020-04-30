@@ -1,12 +1,3 @@
-create: main.exe main_pp.cpp main_asm.s main_obj.o 
-main_pp.cpp: main.cpp
-	g++ -E -I ../headers main.cpp -o main_pp.cpp
-main_asm.s: main_pp.cpp
-	g++ -S main_pp.cpp -o main_asm.s
-main_obj.o: main_asm.s
-	g++ -c main_asm.s -o main_obj.o
-main.exe: main_obj.o
-	g++ main_obj.o -o main.exe
+main: main.cpp marwanwalid.cpp salmashoukry.cpp marwanwalid.h salmashoukry.h
+	g++ main.cpp marwanwalid.cpp salmashoukry.cpp -o main
 
-clean:
-	rm main_pp.cpp main_asm.s main_obj.o main.exe 

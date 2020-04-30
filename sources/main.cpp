@@ -6,4 +6,6 @@ int main()
 {
 salmashoukry();
 marwanwalid();
+cout<<"name: Seif Sultan"<<endl;
+cout<<"email: seifsultan@aucegypt.edu"<<endl;
 }
