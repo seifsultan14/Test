@@ -2,7 +2,5 @@
 using namespace std;
 
 void marwanwalid();
-{
 
-}
 
